@@ -14,7 +14,7 @@ if not os.path.exists(MODEL_PATH):
 
 model = joblib.load(MODEL_PATH)
 
-# -----------------------------
+# ---------------------------
 # Page Configuration
 # -----------------------------
 st.set_page_config(page_title="PM2.5 Prediction", layout="centered")
